@@ -1,0 +1,27 @@
+- layout: default
+  modal-id: 1
+  name: Hotel Victor Plaza Arcos
+  site: https://victorplazaarcos.com.br/
+  phone: (37) 3351-5560 / (37) 8803-5560 / (37) 3405-0002 
+  address: Rua Capitão José Apolinário, 491
+
+- layout: default
+  modal-id: 1
+  name: Max Hotel
+  site: http://www.maxhotelarcos.com.br/
+  phone: (37) 3351-3379 / (37) 3351-1248
+  address: Rua Capitão José Apolinário, 645
+
+- layout: default
+  modal-id: 1
+  name: Onix Hotel Arcos
+  site: http://www.onixhotelarcos.com.br/
+  phone: (37) 3351-7444
+  address: Rua Dolomita, 68
+
+- layout: default
+  modal-id: 1
+  name: Hotel Real Palace
+  site: http://hotelrealpalace.negocio.site/
+  phone: (37) 3351-1654
+  address: R. Jarbas Ferreira Píres, 501
