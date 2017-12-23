@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 date: 2014-12-25
 img-grid: 2014-grid.png
-img: 2014.JPG
+img: 2014.jpg
 alt: image-alt
 data-pic: Dezembro 2014
 local: Alfenas - MG
