@@ -3,27 +3,29 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.location }}</h3>
+                    <div class="col-lg-12 text-center">
+                        <h2>Endereços</h2>
+                        <hr class="star-light">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="footer-col col-md-5 col-md-offset-1">
+                        <h3>Bárbara</h3>
                         <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
+                            Av. Almansor de Sousa Rabelo, 201<br/>
+                            Centro<br/>
+                            CEP 35588-000<br/>
+                            Arcos – MG
                         </p>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-		                    {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.credits }}</h3>
-                        <p>{{ site.credits }}</p>
+                    <div class="footer-col col-md-5">
+                        <h3>Rafael</h3>
+                        <p>
+                            Rua Dom Alberto Gonçalves, 962<br/>
+                            Vila Tamandaré<br/>
+                            CEP 14085-100<br/>
+                            Ribeirão Preto - SP
+                        </p>
                     </div>
                 </div>
             </div>
