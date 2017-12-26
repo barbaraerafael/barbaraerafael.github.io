@@ -3,35 +3,44 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2>Contato</h2>
+				<h2>Presença</h2>
 				<hr class="star-light">
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h3>Confirme sua presença</h3>
+				<br/>
+				<br/>
+			</div>
+		</div>
+
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				<form  action="//formspree.io/{{ site.email }}" method="POST" name="sentMessage" id="contactForm" novalidate>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Name</label>
+							<label>Nome</label>
 							<input type="text" name="name" class="form-control" placeholder="Nome" id="name" required data-validation-required-message="Por favor, insira seu nome.">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Email Address</label>
+							<label>E-mail</label>
 							<input type="email" name="_replyto" class="form-control" placeholder="E-mail" id="email" required data-validation-required-message="Por favor, insira seu e-mail">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
 					<div>
-						<input type="hidden"  name="_subject" value="New submission!">
+						<input type="hidden" name="_language" value="pt-BR" />
+						<input type="hidden"  name="_subject" value="Confirmação">
 						<input type="text" name="_gotcha" style="display:none" />
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label>Message</label>
-							<textarea rows="5" name="message" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Por favor, insira uma mensagem."></textarea>
+							<label>Convidados</label>
+							<textarea rows="5" name="message" class="form-control" placeholder="Informe o nome dos convidados." id="message" required data-validation-required-message="Por favor, insira uma mensagem."></textarea>
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
