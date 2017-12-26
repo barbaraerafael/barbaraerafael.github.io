@@ -787,12 +787,12 @@
 				type: "shortcut",
 				shortcut: "validemail"
 			},
-			validemail: {
-				name: "Validemail",
-				type: "regex",
-				regex: "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\\.[A-Za-z]{2,4}",
-				message: "E-mail inválido<!-- data-validation-validemail-message to override -->"
-			},
+			// validemail: {
+			// 	name: "Validemail",
+			// 	type: "regex",
+			// 	regex: "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\\.[A-Za-z]{2,4}",
+			// 	message: "E-mail inválido<!-- data-validation-validemail-message to override -->"
+			// },
 			passwordagain: {
 				name: "Passwordagain",
 				type: "match",
