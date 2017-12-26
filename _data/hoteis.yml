@@ -25,3 +25,10 @@
   site: http://hotelrealpalace.negocio.site/
   phone: (37) 3351-1654
   address: R. Jarbas Ferreira Píres, 501
+
+- layout: default
+  modal-id: 1
+  name: Ana Maria Apart Hotel
+  site: http://www.anamariaaparthotel.com.br/
+  phone: (37) 3351-3196
+  address: Rua Jarbas Ferreira Pires, 450

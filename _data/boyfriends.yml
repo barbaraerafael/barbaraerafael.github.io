@@ -1,0 +1,62 @@
+- layout: default
+  modal-id: 1
+  date: 2011-06-13
+  img-grid: 2011-grid.png
+  img: 2011.JPG
+  alt: image-alt
+  data-pic: 2011
+  local: Fama - MG
+
+- layout: default
+  modal-id: 7
+  date: 2012-07-18
+  img-grid: 2012-grid.png
+  img: 2012.JPG
+  alt: image-alt
+  data-pic: 2011
+  local: Alfenas-MG
+
+- layout: default
+  modal-id: 8
+  date: 2013-07-18
+  img-grid: 2013-grid.png
+  img: 2013.jpg
+  alt: image-alt
+  data-pic: 2013
+  local: Alfenas-MG
+
+- layout: default
+  modal-id: 9
+  date: 2014-12-25
+  img-grid: 2014-grid.png
+  img: 2014.jpg
+  alt: image-alt
+  data-pic: 2014
+  local: Alfenas - MG
+
+- layout: default
+  modal-id: 10
+  date: 2015-06-14
+  img-grid: 2015-grid.png
+  img: 2015.jpg
+  alt: image-alt
+  data-pic: 2015
+  local: Ribeirão Preto - SP
+
+- layout: default
+  modal-id: 11
+  date: 2016-10-09
+  img-grid: 2016-grid.png
+  img: 2016.jpg
+  alt: image-alt
+  data-pic: 2016
+  local: Arcos - MG
+
+- layout: default
+  modal-id: 12
+  date: 2017-11-12
+  img-grid: 2017-grid.png
+  img: 2017.jpeg
+  alt: image-alt
+  data-pic: 2017
+  local: Alfenas - MG
